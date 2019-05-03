@@ -24,7 +24,7 @@ public class Exe {
 
 
     conta1.depositar (1000F);
-    conta1.sacar(1000F);
+    conta1.sacar(10000F);
 
     conta2.depositar(1000F);
     conta2.sacar(1000F);
