@@ -34,12 +34,13 @@ public class Conta {
     }
 
     public void sacar(Float quantiaDinheiro) {
-        this.saldo = saldo - quantiaDinheiro;
-        if (saldo > quantiaDinheiro) {
+
+        if (quantiaDinheiro > saldo) {
             System.out.println("Saldo Insuficiente");
-        } else {
+
+        } else { saldo = saldo - quantiaDinheiro;
             System.out.println("Saque realizado com sucesso, Seu novo saldo é: " + saldo);
 
-        }
     }
+}
 }

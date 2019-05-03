@@ -19,14 +19,14 @@ public class Exe {
 
     Conta conta2 = new Conta();
         conta2.setNumeroConta("123456");
-        conta2.setSaldo(1000F);
+        conta2.setSaldo(100F);
         conta2.setTitular(cliente2);
 
 
-    conta1.depositar (100F);
-    conta1.sacar(50F);
+    conta1.depositar (1000F);
+    conta1.sacar(1000F);
 
-    conta2.depositar(500F);
+    conta2.depositar(1000F);
     conta2.sacar(1000F);
 
     }
